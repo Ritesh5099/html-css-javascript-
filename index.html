@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #abc{
+        border: 2px solid yellowgreen;
+        width:  500px;
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    #pqr{
+        border: 2px solid  gold;
+    }
+</style>
+<body>
+    <div id="abc">
+
+    </div>
+    <button onclick="fun()"  id="pqr" >Click Me</button>
+  <script>
+
+    let x=1
+    function fun(){
+
+       if(x==1){
+        document.getElementById("abc").style= "background-image: url(a.jpg);";
+        x++;
+
+       }
+
+       else if(x==2){
+
+        document.getElementById("abc").style= "background-image: url(b.jpg);";
+        x++;
+
+
+       }
+       else if(x==3){
+        document.getElementById("abc").style= "background-image: url(c.jpg);";
+           x=1;
+       }
+
+
+    }
+
+  </script>
+
+
+</body>
+</html>
