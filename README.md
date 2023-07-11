@@ -5,3 +5,4 @@ https://ritesh5099.github.io/html-css-javascript-/
 https://man-ga.netlify.app/
 this is updated one
 this is updated in master branch
+ this is changed in github
